@@ -1,0 +1,330 @@
+
+/*Define tailored styles*/
+
+body {
+	font-size: 1em;
+  	background-color: white;
+  	font-family: 'Pontano Sans', sans-serif;
+}
+
+#home-img{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+#navbar-header{
+	background-color: gray;
+}
+
+#header-nav{
+	font-style: italic;
+	font-size: 2em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#carousel-jumbotron{
+	margin-top:30px;
+	border: 2px;
+	border-color: #b4b4b4;
+}
+
+.carousel-item img{
+
+	height:500px;
+	width:750px;
+	object-fit: contain;
+}
+
+#nav-list span {
+  text-align: center; 
+  font-weight: bold;
+}
+#nav-list span:hover {
+  background-color: gray;
+}
+
+.box-icon{
+	width: 40px;
+	height:40px;
+	border: 2px solid black;
+	z-index: 2;
+	left: 50%;
+	top: 0px;
+	position: absolute;
+	background-color: white;
+	margin-left: -20px;
+}
+
+.welcomebox-wrapper{
+	margin-top:10px;
+	margin-left:20px;
+	height: 310px;
+	width: 100%;
+	position: relative;
+}
+
+
+#welcome-box{
+  height: 280px;
+  width:100%;
+  box-shadow: 2px 2px 2px 2px gray;
+  border: 2px solid black;
+  margin-top: 20px;
+  clear: left;
+  z-index: 1;
+  position:absolute;
+}
+
+#welcome-box h1{
+	margin-top:20px;
+}
+
+#welcome-box hr{
+	width:75%;
+	border-width: 2px;
+}
+
+#welcome-box div{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size:1.1em;
+	text-align: center;
+}
+
+.updatebox-wrapper{
+	margin-top:10px;
+	margin-left:20px;
+	height: 200px;
+	width: 100%;
+	position: relative;
+	clear: both;
+}
+
+#update-box {
+  height: 180px;
+  width:100%;
+  box-shadow: 2px 2px 2px 2px gray;
+  border: 2px solid black;
+  margin-top: 20px;
+  position: absolute;
+  z-index: 1;
+}
+
+#update-box hr {
+	width:75%;
+	border-width: 2px;
+	margin-top:10px;
+}
+
+#update-box h2{
+	margin-top:20px;
+}
+
+#update-box span{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size:1.1em;
+	text-align: center;
+}
+
+.panel-footer{
+	background-color: #3c3c3c;
+	color: white;
+	margin-top:20px;
+}
+
+.panel-footer hr{
+	border-color: white;
+	width: 85%;
+	border-width:2px;
+}
+
+.panel-footer-header{
+	padding-top:10px;
+	margin-bottom: -10px;
+	font-weight: bold;
+}
+
+.mail-contact a{
+	color:white;
+}
+
+.mail-contact a:hover, .mailcontact a:focus {
+  text-decoration: none;
+  background-color: white;
+  color:black;
+}
+
+.album-cover {
+	padding:20px;
+	height: 350px;
+	width: 475px;
+	max-width: 475px;
+	border: 2px solid gray;
+	background-color: #ffffe6
+}
+
+.image-album-tile{
+	margin-top:20px;
+}
+
+
+.image-row-container{
+	margin-top: 20px;
+}
+
+
+.single-picture-landscape{
+	border: 2px black;
+	box-shadow: 2px 2px 2px 2px gray;
+	height: 325px;
+	width: 475px;
+	max-width:475px;
+}
+
+.single-picture-profile{
+	border: 2px black;
+	box-shadow: 2px 2px 2px 2px gray;
+	height: 600px;
+	width: 400px;
+	max-width: 400px;
+}
+
+.single-image-tile{
+	margin-top:20px;
+}
+
+.menu-background{
+	height: 300px;
+	width: 375px;
+	position: relative;
+	border: 2px solid gray;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.menu-category-tile{
+	margin-top:30px;
+}
+
+.menu-category-tile h5{
+	font-weight: bold;
+}
+
+.menu-background-picture{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	z-index: 1;
+}
+
+.menu-cover{
+	position: absolute;
+	height: 200px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left: -150px;
+	top: 50%;
+	left:50%;
+	z-index:2;
+}
+
+#dinner-generator-header h2{
+	margin-top: 30px;
+	background-color: #b3b3b3;
+}
+
+.dinner-checkbox{
+	float:right;
+	margin-right: 20px;
+}
+
+#dinner-generate-description{
+	float: right;
+	margin-right: 20px;
+}
+
+#generated-menues{
+	margin-top: 30px;
+}
+
+#dinner-generator-form button{
+ margin-right: 50px;
+}
+
+.recepie-tile{
+	border: 2px solid gray;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.recepie-image-tile{
+	
+}
+
+.recepie-image-tile div{
+	font-size: 1em;
+}
+
+.recepie-image{
+	height: 300px;
+	width: 350px;
+	overflow: hidden;
+	max-width: 350px;
+}
+
+.recepie-description p{
+	font-style: italic;
+}
+
+.ingredients-description{
+	border-right: 1px solid gray;
+	margin-bottom: 20px;
+}
+
+.recepie-to-do{
+	margin-bottom: 20px;
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+  .recepie-image{
+	height: 250px;
+	width: 275px;
+	overflow: hidden;
+	max-width: 275px;
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .recepie-image{
+	height: 175px;
+	width: 225px;
+	overflow: hidden;
+	max-width: 225px;
+}
+
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  
+  .recepie-image{
+	height: 200px;
+	width: 250px;
+	overflow: hidden;
+	max-width: 250px;
+
+
+}

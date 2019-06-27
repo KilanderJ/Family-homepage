@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+   
+   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fam Gripsten Kilander homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap" rel="stylesheet">
+    <!--<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> -->
+    <script src="../js/dinnergenerator.js"></script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <nav id="navbar-header" class="navbar navbar-expand-lg navbar-light">
+        
+        <div class="container-fluid">
+
+          <!--Set home icon-->
+          <div class = "justify-content-start" id ="header-nav">
+          <a href="index.html" class="pull-left">
+            <img src="../images/Icons/home icon final.png" alt="Home icon" id="home-img">
+          </a>
+          <span>Familjen Gripsten-Kilander</span>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--Define button for collapsable menu -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul id="nav-list" class="nav navbar-nav">
+              
+
+                <li class="nav-item">
+                  <a class="nav-link" href="pictures-main.html"><span>Bilder</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" id="navbarDropdownRecepie" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span>Recept</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownRecepie">
+                    <a class="dropdown-item" href="recepies-main.html">Mina recept</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="snacks.html">Snacks</a>
+                    <a class="dropdown-item" href="starters.html">Förrätter</a>
+                    <a class="dropdown-item" href="main-courses.html">Huvudrätter</a>
+                    <a class="dropdown-item" href="deserts.html">Efterrätter</a>
+                  </div>
+                </li>
+
+                 <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="personals.hmtl" id="navbarDropdownPersonals" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span>Personliga sidor</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownPersonals">
+                    <a class="dropdown-item" href="carina-personal.html">Carina</a>
+                    <a class="dropdown-item" href="johan-personal.html">Johan</a>
+                    <a class="dropdown-item" href="sophie-personal.html">Sophie</a>
+                    <a class="dropdown-item" href="anton-personal.html">Anton</a>
+                  </div>
+                </li>             
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+     <!--Set picture albums-->
+    <div class = "container-fluid">
+
+      <div class = "row">
+        <div class = "col-12 text-center">
+          <h1>Våra recept!</h1>
+          <br>
+          <h4>Här samlar vi våra recept. Klicka på kategorierna nedan för att komma vidare till recepten.</h4>
+          Längst ned hittar du också vår middagsgenerator som slumpar ett recept för varje vald kategori.   
+          <hr>
+        </div> 
+      </div>
+
+      <div class = "row image-row-container">
+
+        <div class = "col-md-6 text-center menu-category-tile">
+          <h5>Snacks</h5>
+          <div class = "menu-background">
+            <img src="../images/Main courses/pattern_picnic_cloth.png" alt="" class="menu-background-picture">
+            <a href="snacks.html"><img src="../images/Snacks/parmachips.jpg" alt="" class="menu-cover"></a>
+          </div>
+        </div> 
+
+        <div class = "col-md-6 text-center menu-category-tile">
+          <h5>Förrätter</h5>
+          <div class = "menu-background">
+            <img src="../images/Main courses/pattern_picnic_cloth.png" alt="" class="menu-background-picture">
+            <a href="starters.html"><img src="../images/Starters/matjestallrik.jpg" alt="" class="menu-cover"></a>
+          </div>
+        </div>
+        
+        <div class = "col-md-6 text-center menu-category-tile">
+          <h5>Huvudrätter</h5>
+          <div class = "menu-background">
+            <img src="../images/Main courses/pattern_picnic_cloth.png" alt="" class="menu-background-picture">
+            <a href="main-courses.html"><img src="../images/Main courses/kycklingsallad.jpg" alt="" class="menu-cover"></a>
+          </div>
+        </div>
+
+        <div class = "col-md-6 text-center menu-category-tile">
+          <h5>Efterrätter</h5>
+          <div class = "menu-background">
+            <img src="../images/Main courses/pattern_picnic_cloth.png" alt="" class="menu-background-picture">
+            <a href="deserts.html"><img src="../images/Deserts/glutenfri-appelpaj.jpeg" alt="" class="menu-cover"></a>
+          </div>
+        </div>
+
+    </div>
+
+  </div> <!--Close container fluid for main contents-->
+  
+
+  <div class = "container-fluid" id="dinner-generator-header">
+
+    <div class = "row">
+      <div class = "col-12 text-center">
+        <h2>Middags generatorn</h2>
+        <h5>Klicka för vilka rätter som du vill slumpa fram från vår receptsamling och tryck på 'Skapa Meny'</h5>
+        <hr>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="container" id="dinner-generator-form">
+
+    <div class = "row justify-content-start">
+
+        <div id= "dinner-generate-description">
+          Välj typ av rätt som du vill slumpa fram:
+        </div>  
+        
+        <form>
+
+          <div class="form-group form-check dinner-checkbox">
+            <input type="checkbox" class="form-check-input" id="snacksCheck">
+            <label class="form-check-label" for="snacksCheck">Snacks:</label>
+          </div>
+          <div class="form-group form-check dinner-checkbox">
+            <input type="checkbox" class="form-check-input" id="starterCheck">
+            <label class="form-check-label dinner-checkbox" for="starterCheck">Förrätt:</label>
+          </div>
+          <div class="form-group form-check dinner-checkbox">
+            <input type="checkbox" class="form-check-input" id="mainCourseCheck">
+            <label class="form-check-label dinner-checkbox" for="mainCourseCheck">Huvudrrätt:</label>
+          </div>
+          <div class="form-group form-check dinner-checkbox">
+            <input type="checkbox" class="form-check-input" id="desertCheck">
+            <label class="form-check-label dinner-checkbox" for="desertCheck">Efterrätt:</label>
+          </div>
+
+          <br>
+          <button type="button" class="btn btn-primary" onclick="$kg.loadRandomRecepies();">Skapa meny!</button>
+          <button type="reset" class="btn btn-secondary">Rensa!</button>
+        
+      </form>
+      <hr>
+    </div>
+  </div>
+    
+  <div id="generated-menues">
+
+    <div class = "container">
+
+      <div class = "row">
+        <div class= "col-12 generated-menu text center">
+          <section id="snack-random-recepie"></section>
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class= "col-12 generated-menu text center">
+          <section id="starter-random-recepie"></section>
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class= "col-12 generated-menu text center">
+          <section id="maincourse-random-recepie"></section>
+        </div>
+      </div>
+      
+      <div class = "row">
+        <div class= "col-12 generated-menu text center">
+          <section id="desert-random-recepie"></section>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+    <div class = "panel-footer">
+
+        <div class = "container-fluid"
+          
+          <div class = "row">
+            <div class = "col-12 text-center">
+              <p class = "panel-footer-header">
+                Klicka på länkarna nedan ha att skicka ett mail till någon av oss
+              </p>
+            </div>
+            <hr>            
+          </div>
+        
+          <div class = "row">
+
+            <div class = "col-2"></div>
+        
+            <div class = "col-2 text-center mail-contact">
+              <a href="mailto:carina.gripsten@gmail.com">Carina</a> 
+            </div>  
+
+            <div class = "col-2 text-center mail-contact">
+              <a href="mailto:johan.kilander@gmail.com">Johan</a> 
+            </div>
+
+            <div class = "col-2 text-center mail-contact">
+              <a href="mailto:sophie.kilander@gmail.com">Sophie</a> 
+            </div>
+
+            <div class = "col-2 text-center mail-contact">
+              <a href="mailto:kilander.anton@gmail.com">Anton</a> 
+            </div>
+
+            <div class = "col-2"></div>
+
+          </div>
+
+        </div>
+
+    </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/ajax-utils.js"></script>
+  
+  
+  <!--
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  -->
+
+  </body>
