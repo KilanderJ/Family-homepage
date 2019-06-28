@@ -3,7 +3,7 @@
 
 var kg = {};
 
-var snackHtml = "snacks.html";
+var snackHtml = "/html/snacks.html";
 var starterHtml = "../html/starters.html";
 var maincourseHtml = "../html/main-courses.html";
 var desertHtml = "../html/deserts.html";
@@ -56,6 +56,7 @@ kg.getrandomrecepie = function ( myHtml ){
 //function for loading snack recepies
 kg.loadRandomSnackRecepie = function() {
   $ajaxUtils.sendGetRequest( snackHtml, function (snackHtml) {
+    console.log( snackHtml )
     var myRandomRecepie = kg.getrandomrecepie( snackHtml );
     myRandomRecepie = "<h2>Slumpad snack</h2><hr>" + myRandomRecepie
     insertHtml("#snack-random-recepie", myRandomRecepie);
