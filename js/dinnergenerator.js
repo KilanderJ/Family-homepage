@@ -104,19 +104,18 @@ kg.loadRandomRecepies = function () {
     kg.loadRandomSnackRecepie();
   };
 
-  /*
+ 
   if ( starterChecked ) {
-    loadRandomStarterRecepie();
+    kg.loadRandomStarterRecepie();
   };
 
   if ( mainCourseChecked ) {
-    loadRandomMainCourseRecepie();
+    kg.loadRandomMainCourseRecepie();
   };
 
  if( desertChecked ) {
-  loadRandomDesertRecepie();
+  kg.loadRandomDesertRecepie();
  };
-  */
 
 };
 
