@@ -3,10 +3,10 @@
 
 var kg = {};
 
-var snackHtml = "/html/snacks.html";
-var starterHtml = "/html/starters.html";
-var maincourseHtml = "/html/main-courses.html";
-var desertHtml = "/html/deserts.html";
+var snackHtml = "../html/snacks.html";
+var starterHtml = "../html/starters.html";
+var maincourseHtml = "../html/main-courses.html";
+var desertHtml = "../html/deserts.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
