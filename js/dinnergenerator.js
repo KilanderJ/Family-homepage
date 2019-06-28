@@ -3,7 +3,7 @@
 
 var kg = {};
 
-var snackHtml = "../html/snacks.html";
+var snackHtml = "snacks.html";
 var starterHtml = "../html/starters.html";
 var maincourseHtml = "../html/main-courses.html";
 var desertHtml = "../html/deserts.html";
