@@ -98,7 +98,7 @@ kg.loadRandomRecepies = function () {
   var snackChecked = document.getElementById("snacksCheck").checked;
   var starterChecked = document.getElementById("starterCheck").checked;
   var mainCourseChecked = document.getElementById("mainCourseCheck").checked;
-  var desertChecked = document.getElementById("mainCourseCheck").checked;
+  var desertChecked = document.getElementById("desertCheck").checked;
   
   if ( snackChecked ) {
     kg.loadRandomSnackRecepie();
