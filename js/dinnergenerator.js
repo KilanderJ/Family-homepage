@@ -4,9 +4,9 @@
 var kg = {};
 
 var snackHtml = "/Family-homepage/html/snacks.html";
-var starterHtml = "/Family-homepage//html/starters.html";
-var maincourseHtml = "/Family-homepage//html/main-courses.html";
-var desertHtml = "/Family-homepage//html/deserts.html";
+var starterHtml = "/Family-homepage/html/starters.html";
+var maincourseHtml = "/Family-homepage/html/main-courses.html";
+var desertHtml = "/Family-homepage/html/deserts.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
@@ -56,7 +56,6 @@ kg.getrandomrecepie = function ( myHtml ){
 //function for loading snack recepies
 kg.loadRandomSnackRecepie = function() {
   $ajaxUtils.sendGetRequest( snackHtml, function (snackHtml) {
-    console.log( snackHtml )
     var myRandomRecepie = kg.getrandomrecepie( snackHtml );
     myRandomRecepie = "<h2>Slumpad snack</h2><hr>" + myRandomRecepie
     insertHtml("#snack-random-recepie", myRandomRecepie);
