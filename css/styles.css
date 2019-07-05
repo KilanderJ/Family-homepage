@@ -28,6 +28,7 @@ body {
 	margin-top:30px;
 	border: 2px;
 	border-color: #b4b4b4;
+
 }
 
 .carousel-image{
@@ -39,7 +40,7 @@ body {
 .carousel-item img{
 
 	height:500px;
-	width:750px;
+	/*max-width: 850px;*/
 	object-fit: contain;
 }
 
@@ -63,24 +64,24 @@ body {
 	margin-left: -20px;
 }
 
-.welcomebox-wrapper{
+#welcomebox-wrapper{
 	margin-top:10px;
-	margin-left:20px;
-	height: 310px;
+	/* height: 310px; */
 	width: 100%;
 	position: relative;
+	
 }
 
 
 #welcome-box{
-  height: 280px;
+  /* height: 280px; */
   width:100%;
   box-shadow: 2px 2px 2px 2px gray;
   border: 2px solid black;
   margin-top: 20px;
-  clear: left;
-  z-index: 1;
-  position:absolute;
+  
+  
+  
 }
 
 #welcome-box h1{
@@ -95,27 +96,28 @@ body {
 #welcome-box div{
 	margin-left: 5px;
 	margin-right: 5px;
-	font-size:0.9em;
+	font-size:1.2em;
 	text-align: center;
 }
 
 .updatebox-wrapper{
+	
 	margin-top:10px;
-	margin-left:20px;
-	height: 200px;
+	/* height: 200px; */
 	width: 100%;
 	position: relative;
 	clear: both;
+
 }
 
 #update-box {
-  height: 180px;
+  /* height: 180px; */
   width:100%;
   box-shadow: 2px 2px 2px 2px gray;
   border: 2px solid black;
   margin-top: 20px;
-  position: absolute;
-  z-index: 1;
+  
+  
 }
 
 #update-box hr {
@@ -131,7 +133,7 @@ body {
 #update-box span{
 	margin-left: 5px;
 	margin-right: 5px;
-	font-size:0.9em;
+	font-size:1.2em;
 	text-align: center;
 }
 

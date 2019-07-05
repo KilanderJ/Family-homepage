@@ -102,19 +102,27 @@ kg.loadRandomRecepies = function () {
   
   if ( snackChecked ) {
     kg.loadRandomSnackRecepie();
+  } else {
+    insertHtml("#snack-random-recepie", "");
   };
 
  
   if ( starterChecked ) {
     kg.loadRandomStarterRecepie();
+  } else {
+    insertHtml("#starter-random-recepie", "");
   };
 
   if ( mainCourseChecked ) {
     kg.loadRandomMainCourseRecepie();
+  } else {
+    insertHtml("#maincourse-random-recepie", "");
   };
 
  if( desertChecked ) {
   kg.loadRandomDesertRecepie();
+ } else {
+  insertHtml("#desert-random-recepie", "");
  };
 
 };
