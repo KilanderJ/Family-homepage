@@ -301,6 +301,25 @@ body {
 }
 
 
+.article-link-box{
+	line-height: 150px;
+  	height: 150px;
+	text-align: center;
+	border: 1px solid gray
+}
+
+.article-link-box a {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.article-description{
+	height:150px;
+	overflow: auto;
+	border: 1px solid gray
+}
+
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
  
